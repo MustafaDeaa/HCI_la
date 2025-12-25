@@ -127,19 +127,19 @@ footer {
 
 /* YouTube Section backgrounds */
 .youtube-section-space {
-    background-image: url('/photo/Earth-from-space.jpg');
+    background-image: url('photo/Earth-from-space.jpg');
     background-size: cover;
     background-position: center;
     padding: 64px 0;
 }
 .youtube-section-mathematics {
-    background-image: url('/photo/Math_cards.jpg');
+    background-image: url('photo/Math_cards.jpg');
     background-size: cover;
     background-position: center;
     padding: 64px 0;
 }
 .youtube-section-physics {
-    background-image: url('/photo/Physics_card.jpg');
+    background-image: url('photo/Physics_card.jpg');
     background-size: cover;
     background-position: center;
     padding: 64px 0;
@@ -214,4 +214,3 @@ footer {
         font-size: 22px;
     }
 }
-
