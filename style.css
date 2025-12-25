@@ -92,6 +92,18 @@ footer {
     background: url('photo/physics.webp') no-repeat center/cover local;
 }
 
+.section2 .youtube-section {
+    background: url('photo/math.webp') center/cover no-repeat;
+}
+
+.section3 .youtube-section {
+    background: url('photo/physics.webp') center/cover no-repeat;
+}
+
+.section1 .youtube-section {
+    background: url('photo/space.jpg') center/cover no-repeat;
+}
+
 
 
 /* Button */
