@@ -20,6 +20,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+    gap: 20px;
 }
 
 /* Header & Navigation */
@@ -70,13 +71,14 @@ footer {
     height: fit-content;
     text-align: center;
     scroll-margin-top: 80px;
+    text-shadow: #000000 25px;
 }
 
 .section h2 {
     font-size: 48px;
     margin-bottom: 24px;
     color: white;
-    text-shadow: 2px 2px 4px rgb(1, 0, 0);
+    text-shadow: #131010 1px 1px 2px;
     animation: fadeIn 2s ease-in;
 }
 
@@ -162,11 +164,12 @@ footer {
 .youtube-card {
     background: white;
     border-radius: 8px;
+    text-align: center;
     width: 300px;
     height: 120px;
     padding: 10px;
     overflow: hidden;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgba(46, 42, 79, 0.486);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .youtube-card:hover {
