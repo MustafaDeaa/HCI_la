@@ -166,8 +166,8 @@ footer {
     border-radius: 8px;
     text-align: center;
     width: 300px;
-    height: 120px;
-    padding: 10px;
+    min-height: 160px;
+    padding: 12px;
     overflow: hidden;
     box-shadow: 0 4px 12px rgba(46, 42, 79, 0.486);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -178,7 +178,8 @@ footer {
 }
 .youtube-card a {
     display: block;
-    padding: 24px;
+    height: 100%;
+    padding: 24px 16px;
     text-decoration: none;
     color: inherit;
 }
