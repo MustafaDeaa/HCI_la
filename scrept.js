@@ -50,11 +50,13 @@ const text=[
 function displaytext(){
     for(let i=0;i<text.length;i++){
         const item = text[i];
-        const element = document.getElementById(item.id);
-        if(!element) continue;
+        // const element = document.getElementById(item.id);
+        const test =document.getElementById(item.id);
+        if(!test) continue;
 
         // Make the whole card clickable by wrapping the content in the anchor.
-        element.innerHTML = `<a href="${item.url}" target="_blank">${item.desc}</a>`;
+        // element.innerHTML = `<a href="${item.url}" target="_blank">${item.desc}</a>`;
+        test.innerHTML = `<a href="${item.url}" target="_blank">${item.desc}</a>`;
     }   
 }
 displaytext();
